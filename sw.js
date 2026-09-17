@@ -1,7 +1,7 @@
 /* Giant Coffee Prep — offline shell + push notifications.
    App state lives in localStorage; the timers this worker needs are mirrored
    into IndexedDB, because a service worker cannot read localStorage. */
-const CACHE = "giant-prep-v3";
+const CACHE = "giant-prep-v4";
 const ASSETS = [
   "./", "./index.html", "./manifest.webmanifest",
   "./icon-192.png", "./icon-512.png", "./elephant.png",
